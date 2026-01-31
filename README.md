@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gfindLastIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gfind-last-index@deno/mod.js';
+import gfindLastIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gfind-last-index@v0.1.0-deno/mod.js';
 ```
 
 #### gfindLastIndex( arrays, clbk\[, thisArg] )
@@ -144,7 +144,7 @@ var count = ctx.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import gfindLastIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gfind-last-index@deno/mod.js';
+import gfindLastIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gfind-last-index@v0.1.0-deno/mod.js';
 
 function isEven( v ) {
     return v % 2.0 === 0.0;
