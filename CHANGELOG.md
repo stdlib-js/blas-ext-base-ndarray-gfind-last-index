@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-15)
+## Unreleased (2026-08-26)
+
+<section class="features">
+
+### Features
+
+-   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91) - add `fromIndex` support to `blas/ext/base/ndarray/gfind-last-index` [(#14479)](https://github.com/stdlib-js/stdlib/pull/14479)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/gfind-last-index` [(#14479)](https://github.com/stdlib-js/stdlib/pull/14479) _(by Muhammad Haris, Athan Reines)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4982b32`](https://github.com/stdlib-js/stdlib/commit/4982b3215389e2264fc35e40a548053c25eba4f4) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`df6fbe8`](https://github.com/stdlib-js/stdlib/commit/df6fbe8072b04fc62d2cf41a1f54f68c73acc58f) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11379)](https://github.com/stdlib-js/stdlib/pull/11379) _(by Karan Anand)_
@@ -26,10 +49,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Muhammad Haris
 -   Philipp Burckhardt
 
 </section>
