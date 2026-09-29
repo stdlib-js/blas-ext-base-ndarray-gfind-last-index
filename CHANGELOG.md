@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-26)
+## Unreleased (2026-09-29)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`735504a`](https://github.com/stdlib-js/stdlib/commit/735504ad4a239b6ba71dd49c1524b534ab9a7fbd) - **docs:** reorder content _(by Athan Reines)_
 -   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/gfind-last-index` [(#14479)](https://github.com/stdlib-js/stdlib/pull/14479) _(by Muhammad Haris, Athan Reines)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4982b32`](https://github.com/stdlib-js/stdlib/commit/4982b3215389e2264fc35e40a548053c25eba4f4) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
